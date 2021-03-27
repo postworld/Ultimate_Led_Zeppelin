@@ -136,4 +136,16 @@ ul.track-list li {
     background-attachment: none;
 }
 
+.text-content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.bio-img {
+    width: 100%;
+    min-width: none;
+    margin: 1.5rem auto;
+    padding: 0rem 2rem;
+}
+
 }
