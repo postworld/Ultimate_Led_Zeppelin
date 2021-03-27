@@ -120,6 +120,20 @@ ul.track-list li {
     width: 100%;
 }
 
+.logo a {
+    font-size: 3.3rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
 
+.circle {
+    width: 6px;
+    height: 6px;
+}
+
+.ultimate {
+    background: url(/images/ultimatehero1.jpg) center bottom/cover no-repeat;
+    background-attachment: none;
+}
 
 }
