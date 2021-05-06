@@ -254,6 +254,8 @@ li a {
     color: var(--gold-color);
     transform: scale(0.96);
     transition: all 0.3s ease-in;
+        cursor: pointer;
+
 }
 
 .show-full .full-btn {
@@ -456,7 +458,6 @@ ul.track-list.small li {
      border-radius: 15px;
      border: var(--gold-color);
      box-shadow: 3px 3px var(--pink-color);
-
 }
 
 .openModal {
@@ -502,15 +503,16 @@ ul.track-list.small li {
 .btn-container {
     display: flex;
     align-items: center;
-    width: 45%;
+    /* width: 200px; */
     justify-content: space-around;
 }
 
 .btn-container .btn {
-    padding: 7px 24px;
+    padding: 12px 24px;
     border: 1px var(--blue-color) solid;
     font-weight: normal;
-    font-size: .85rem;
+    margin-left: 1rem;
+    font-size: .9rem;
     border-radius: 2px;
 }
 
@@ -545,6 +547,7 @@ button {
     margin-top: .35rem;
     font-size: 1rem;
     height: 105px;
+    width: 88%;
 
 }
 
